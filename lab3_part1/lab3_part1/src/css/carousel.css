@@ -1,0 +1,23 @@
+.carousel {
+  width: 100vw; /* Chiếm toàn bộ chiều rộng viewport */
+  margin: 0; /* Loại bỏ margin */
+  padding: 0; /* Loại bỏ padding */
+  position: relative; /* Đảm bảo carousel nằm đúng vị trí */
+}
+
+.carousel-inner {
+  width: 100%; /* Đảm bảo carousel-inner full chiều rộng */
+}
+
+.carousel-item img {
+  width: 100%; /* Ảnh chiếm toàn bộ chiều rộng */
+  height: 400px; /* Giữ chiều cao từ mã JSX */
+  object-fit: cover; /* Giữ thuộc tính object-fit */
+}
+
+/* Đảm bảo caption hiển thị đẹp */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Nền mờ cho caption để dễ đọc */
+  padding: 10px;
+  border-radius: 5px;
+}

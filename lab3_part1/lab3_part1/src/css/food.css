@@ -1,0 +1,14 @@
+.card-img-top {
+  width: 100% !important; /* Ảnh full chiều ngang card */
+  height: 250px; /* Chiều cao cố định để cân đối */
+  object-fit: cover; /* Lấp đầy khung, giữ tỷ lệ */
+  object-position: center; /* Căn giữa ảnh */
+  display: block; /* Loại bỏ khoảng trống dưới ảnh */
+}
+
+/* Responsive: Giảm chiều cao trên mobile */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 200px;
+  }
+}
